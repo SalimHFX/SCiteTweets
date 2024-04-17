@@ -2,9 +2,9 @@
 
 <!-- Short Introduction what this repo is about -->
 
-This repository contains multiple datasets and the codes for the work *"Cite-worthiness Detection on Social Media: a Preliminary Study"* published at **NSLP2024**. 
+This repository contains the dataset and code for the following paper: 
 
-For the CiteWorth dataset, you can obtain it by visiting CiteWorth Git page [GitHub - copenlu/cite-worth: Data and code for the paper &quot;CiteWorth: Cite-Worthiness Detection for Improved Scientific Document Understanding&quot;](https://github.com/copenlu/cite-worth)
+Salim Hafid, Wassim Ammar, Sandra Bringay, Konstantin Todorov. *"Cite-worthiness Detection on Social Media: a Preliminary Study"*. In the 1st Workshop on Natural Scientific Language Processing and Research Knowledge Graphs (NSLP 2024), co-located with ESWC 2024
 
 <!-- *TODO*: refer to our work before being published (e.g arxiv preprint)
 
@@ -13,7 +13,6 @@ For the CiteWorth dataset, you can obtain it by visiting CiteWorth Git page [Git
 __Table of contents:__
 
 - [Contents of the Repository](#contents-of-the-repository)
-  - [Directory Structure](#directory-structure)
 - [Publication](#publication)
 - [Licensing](#licensing)
 - [Contact](#credits)
@@ -21,23 +20,16 @@ __Table of contents:__
 
 ## Contents of the Repository
 
-### Directory Structure
-
-=======================<br/>
 This repository contains the following directories and files:
 
-1. **Datasets**
-   
-   1. **train.jsonl** the train dataset of CiteWorth
-   2. **test.jsonl** the test dataset of CiteWorth
-   3. **val.jsonl** the validation dataset of CiteWorth
-   4. **twt_FULL.jsonl** the subset of SciTweets, that we call SCiteTweets
+1. **data**
+   1. **scitetweets.jsonl** the SCiteTweets dataset, used for evaluating cite-worthiness detection on X
 
-2. **Logistic Regression Experiments.ipynb** code to calculate the performances of the LogisticRegression model in section 4.2, table 4
+2. **logistic_regression_experiments.ipynb** code to calculate the performances of the LogisticRegression model (See Section 4.2, table 4 of the paper)
 
-3. **Scibert & Longformer Experiments.ipnyb** code to calculate the performances of the SciBERT and longformer models in section 4.2, table 4
+3. **scibert_longformer_experiments.ipnyb** code to calculate the performances of the SciBERT and Longformer models (See Section 4.2, table 4 of the paper)
 
-4. **Readme.md** this file
+4. **README.md** description of the content of the repository, the licensing of the work, and the links to the published paper and contact emails of authors
 
 ## Publication:
 
